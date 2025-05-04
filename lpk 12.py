@@ -112,7 +112,13 @@ kadargula_buah = {
     'Jus kiwi': {'kadar gula': 20, 'vitamin': {'Vitamin C': '112%', 'Vitamin K': '38%'}},
     'Jus melon': {'kadar gula': 12, 'vitamin': {'Vitamin A': '12%', 'Vitamin C': '61%'}},
     'Jus buah naga': {'kadar gula': 15, 'vitamin': {'Vitamin C': '9%', 'Vitamin B3': '8%'}},
-    'Jus sirsak': {'kadar gula': 12, 'vitamin': {'Vitamin C': '24%', 'Vitamin B6': '5%'}}
+    'Jus sirsak': {'kadar gula': 12, 'vitamin': {'Vitamin C': '24%', 'Vitamin B6': '5%'}},
+    'Jus tomat': {'kadar gula': 7, 'vitamin': {'Vitamin C': '15%', 'Vitamin A': '28%'}},
+    'Jus pepaya': {'kadar gula': 36, 'vitamin': {'Vitamin C': '67%', 'Vitamin A': '19%'}},
+    'Jus lemon': {'kadar gula': 6, 'vitamin': {'Vitamin C': '59%'}},
+    'Jus blueberry': {'kadar gula': 35, 'vitamin': {'Vitamin C': '11%', 'Vitamin A': '1%'}},
+    'Jus nanas': {'kadar gula': 30, 'vitamin': {'Vitamin C': '80%', 'Vitamin B1': '7%'}},
+    'Jus markisa': {'kadar gula': 30, 'vitamin': {'Vitamin C': '33%', 'Vitamin A': '7%'}},
 }
 
 # Mengubah urutan judul dan kalkulator
