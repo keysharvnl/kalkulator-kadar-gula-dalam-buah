@@ -71,18 +71,24 @@ st.markdown("<h1 style='color:#ff8080;'>🍓kalkulator kadar gula dalam jus buah
 
 # Data dan sidebar
 informasi_tambahan = {
-    'apel': {'manfaat': "Apel mengandung serat...", 'cara_memilih': "Pilih apel yang..."},
-    'pisang': {'manfaat': "Pisang kaya akan kalium...", 'cara_memilih': "Pilih pisang yang..."},
-    'jeruk': {'manfaat': "Jeruk kaya vitamin C...", 'cara_memilih': "Pilih jeruk yang..."},
-    'pir': {'manfaat': "Pir mengandung serat...", 'cara_memilih': "Pilih pir yang..."},
-    'strawberry': {'manfaat': "Stroberi kaya vitamin C...", 'cara_memilih': "Pilih stroberi yang..."},
-    'semangka': {'manfaat': "Semangka mengandung air...", 'cara_memilih': "Pilih semangka yang..."},
-    'mangga': {'manfaat': "Mangga mengandung vitamin A dan C...", 'cara_memilih': "Pilih mangga yang..."},
-    'alpukat': {'manfaat': "Alpukat kaya lemak sehat...", 'cara_memilih': "Pilih alpukat yang..."},
-    'kiwi': {'manfaat': "Kiwi kaya vitamin C dan serat...", 'cara_memilih': "Pilih kiwi yang..."},
-    'melon': {'manfaat': "Melon meningkatkan hidrasi...", 'cara_memilih': "Perhatikan aroma dan warna..."},
-    'buah naga': {'manfaat': "Buah naga meningkatkan kekebalan...", 'cara_memilih': "Pilih yang warna cerah..."},
-    'sirsak': {'manfaat': "Sirsak meredakan peradangan...", 'cara_memilih': "Pilih kulit agak lunak..."},
+    'apel': {'manfaat': "Apel mengandung serat yang baik untuk pencernaan dan antioksidan yang dapat membantu menjaga kesehatan jantung", 'cara_memilih': "Pilih apel yang berwarna cerah, beratnya padat, dan tanpa memar. Hindari apel yang terlalu lembek"},
+    'pisang': {'manfaat': "Pisang kaya akan kalium yang baik untuk kesehatan jantung dan membantu menjaga tekanan darah.", 'cara_memilih': "Pilih pisang yang kulitnya tidak terlalu berwarna hijau dan tidak terlalu berwarna cokelat. Pilih yang masih dalam kondisi sedikit kehijauan"},
+    'jeruk': {'manfaat': "Jeruk kaya akan vitamin C yang baik untuk sistem kekebalan tubuh dan mengandung antioksidan untuk kesehatan kulit", 'cara_memilih': "Pilih jeruk yang beratnya padat dan berwarna cerah. Hindari jeruk yang terlalu lembek atau memiliki bintik-bintik coklat"},
+    'pir': {'manfaat': "Pir mengandung serat yang baik untuk pencernaan dan mengandung antioksidan yang membantu menjaga kesehatan tubuh", 'cara_memilih': "Pilih pir yang berwarna cerah dan padat. Hindari pir yang terlalu lembek atau memiliki bintik-bintik coklat"},
+    'strawberry': {'manfaat': "Stroberi kaya akan vitamin C dan antioksidan yang baik untuk kesehatan jantung dan kulit", 'cara_memilih': "Pilih stroberi yang berwarna cerah, tanpa noda hitam, dan berukuran sedang"},
+    'semangka': {'manfaat': "Semangka mengandung air yang tinggi, membantu menjaga hidrasi tubuh, dan mengandung antioksidan untuk kesehatan kulit", 'cara_memilih': "Pilih semangka yang beratnya padat dan memiliki bintik kuning di bagian bawahnya"},
+    'mangga': {'manfaat': "Mangga mengandung vitamin A dan C yang baik untuk kesehatan mata dan sistem kekebalan tubuh", 'cara_memilih': "Pilih mangga yang berwarna cerah, beratnya padat, dan sedikit memberi aroma di pangkalnya"},
+    'alpukat': {'manfaat': "Alpukat kaya akan lemak sehat, serat, dan vitamin K. Baik untuk kesehatan jantung dan otak", 'cara_memilih': "Pilih alpukat yang memberi sedikit tekanan ketika ditekan dan beratnya terasa padat"},
+    'kiwi': {'manfaat': "Kiwi kaya akan vitamin C dan serat yang baik untuk pencernaan", 'cara_memilih': "Pilih kiwi yang memberi sedikit tekanan ketika ditekan, hindari yang terlalu lembek"},
+    'melon': {'manfaat': "Melon dapat meningkatkan hidrasi, kaya vitamin C, dan mendukung kesehatan mata", 'cara_memilih': "perhatikan aroma, permukaan yang halus, berat yang seimbang, dan warna yang cerah"},
+    'buah naga': {'manfaat': "Buah Naga  dapat meningkatkan sistem kekebalan tubuh, menjaga kesehatan kulit, dan membantu pencernaan", 'cara_memilih': "pilih yang memiliki warna cerah, sisik yang sedikit layu, dan hindari yang memiliki noda atau kecokelatan pada ujung sisiknya"},
+    'sirsak': {'manfaat': "meningkatkan daya tahan tubuh, meredakan peradangan, dan melancarkan pencernaan", 'cara_memilih': "pilih yang kulitnya agak lunak, berwarna cerah, dan memiliki duri yang jarang serta lunak"},
+    'tomat': {'manfaat': "Tomat kaya akan nutrisi, mendukung kesehatan jantung, mendukung kesehatan mata", 'cara_memilih': "Pilih yang Berwarna Cerah, Periksa Kekerasan, Hindari Bercak atau Kerusakan"},
+    'pepaya': {'manfaat': "Pepaya meningkatkan sistem kekebalan tubuh, mendukung kesehatan pencernaan", 'cara_memilih': "Periksa warna kulit, aroma, tekstur kulit"},
+    'lemon': {'manfaat': "Lemon mengandung Vitamin C yang baik,membantu menjaga kesehatan kulit, mendukung penurunan berat badan", 'cara_memilih': "Periksa warna kulit, aroma, tekstur kulit"},
+    'blueberry': {'manfaat': "Blueberry kaya antioksidan, baik untuk otak, mata, dan kesehatan jantung", 'cara_memilih': "Pilih blueberry yang berwarna biru gelap, terasa kenyal dan tidak terlalu lembek, noda putih pada blueberry adalah tanda bahwa buah tersebut sudah terlalu lama disimpan"},
+    'nanas': {'manfaat': "Nanas melancarkan pencernaan, anti-inflamasi dan penyembuhan luka, meningkatkan kekebalan tubuh, menjaga kesehatan jantung, menjaga kesehatan kulit", 'cara_memilih': "pilih warna kulit kuning keemasan, Aroma Harum manis di bagian pangkal, Tekstur Kulit sedikit lunak saat ditekan lembut, Daun mahkota Hijau segar dan mudah dicabut jika buah sudah matang, Berat nanas matang terasa berat, menandakan banyak air dan daging buah"},
+    'markisa': {'manfaat': "Markisa baik untuk relaksasi, pencernaan, dan kulit karena kaya antioksidan", 'cara_memilih': "Markisa yang matang memiliki kulit yang sedikit keriput. Buah yang terlalu halus atau mulus mungkin belum matang. Pilih markisa yang terasa berat untuk ukurannya, karena ini menunjukkan bahwa buah tersebut mengandung banyak air dan rasa yang lebih manis. Markisa matang akan mengeluarkan aroma harum yang kuat"},
 }
 
 st.sidebar.title('Informasi Tambahan')
